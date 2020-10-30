@@ -10,6 +10,7 @@ typescript    https://www.typescriptlang.org/
 Jest Runner   https://marketplace.visualstudio.com/items?itemName=firsttris.vscode-jest-runner
 vscode-icons  https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons
 ts-jest       https://github.com/kulshekhar/ts-jest 
+git           https://git-scm.com/downloads
 ```
 
 Command line
@@ -27,4 +28,12 @@ Compile file        tsc '{path}/foo.ts'
 Run file            npx node '{path}/foo.ts'
 Compile/Run (fly)   npx ts-node '{path}/foo.ts'
 Running tests       npx jest	
+```
+
+Git - Actualizar Fork
+```
+git remote add upstream https://github.com/GeeksHubsAcademy/2020-10-btc-agile-sw-online-tutoria-2.git
+git fetch upstream
+git checkout 
+git merge upstream/master
 ```
